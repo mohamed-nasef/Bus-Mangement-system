@@ -12,6 +12,7 @@ namespace Bus_Mangement_system
 {
     public partial class Main : MetroFramework.Forms.MetroForm
     {
+        //these are variables for panel height
         int iconHeight = 75;
         int reportPanelHeight = 206;
         int dailyticketPanelHeight = 127;

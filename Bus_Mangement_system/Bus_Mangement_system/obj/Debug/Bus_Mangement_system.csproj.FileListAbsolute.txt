@@ -11,3 +11,15 @@ c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Ma
 c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.pdb
 c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Main.resources
 C:\Users\mnase\Documents\Visual Studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csprojResolveAssemblyReference.cache
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.exe.config
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.exe
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.pdb
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csprojAssemblyReference.cache
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Loading.resources
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Main.resources
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Properties.Resources.resources
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.GenerateResource.cache
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.CoreCompileInputs.cache
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.CopyComplete
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.exe
+C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.pdb
