@@ -1,0 +1,13 @@
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.exe.config
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.exe
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.pdb
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\MetroFramework.Design.dll
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\MetroFramework.dll
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\MetroFramework.Fonts.dll
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Loading.resources
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Properties.Resources.resources
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.GenerateResource.Cache
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.exe
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.pdb
+c:\users\mnase\documents\visual studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Main.resources
+C:\Users\mnase\Documents\Visual Studio 2013\Projects\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csprojResolveAssemblyReference.cache
