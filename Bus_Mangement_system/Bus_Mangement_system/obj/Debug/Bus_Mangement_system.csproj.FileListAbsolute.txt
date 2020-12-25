@@ -23,3 +23,18 @@ C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangem
 C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.CopyComplete
 C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.exe
 C:\Users\mo\Desktop\project\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.pdb
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.exe.config
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.exe
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\Bus_Mangement_system.pdb
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\MetroFramework.Design.dll
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\MetroFramework.dll
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csprojAssemblyReference.cache
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Loading.resources
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Main.resources
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.Properties.Resources.resources
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.GenerateResource.cache
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.CoreCompileInputs.cache
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.csproj.CopyComplete
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.exe
+C:\Users\mnase\Desktop\Bus Mangement system\Bus-Mangement-system\Bus_Mangement_system\Bus_Mangement_system\obj\Debug\Bus_Mangement_system.pdb

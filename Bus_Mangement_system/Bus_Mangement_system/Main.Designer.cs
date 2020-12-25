@@ -72,14 +72,10 @@
             this.addStudent = new System.Windows.Forms.Button();
             this.btnStudent = new System.Windows.Forms.Button();
             this.Logo = new System.Windows.Forms.Panel();
-            this.panelBody = new System.Windows.Forms.Panel();
+            this.panelChildForm = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.panelDrawer.SuspendLayout();
             this.paneliconSetting.SuspendLayout();
-            this.paneliconReport.SuspendLayout();
-            this.paneliconDailyTicket.SuspendLayout();
-            this.paneliconDriver.SuspendLayout();
-            this.paneliconBus.SuspendLayout();
-            this.paneliconStudent.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.reportSubPanel.SuspendLayout();
@@ -87,6 +83,7 @@
             this.driverSubPanel.SuspendLayout();
             this.busSubPanel.SuspendLayout();
             this.studentSubPanel.SuspendLayout();
+            this.panelChildForm.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelDrawer
@@ -95,10 +92,15 @@
             this.panelDrawer.BackColor = System.Drawing.Color.Transparent;
             this.panelDrawer.Controls.Add(this.paneliconSetting);
             this.panelDrawer.Controls.Add(this.paneliconReport);
+            this.panelDrawer.Controls.Add(this.btniconReport);
             this.panelDrawer.Controls.Add(this.paneliconDailyTicket);
+            this.panelDrawer.Controls.Add(this.btniconDailyTicket);
             this.panelDrawer.Controls.Add(this.paneliconDriver);
+            this.panelDrawer.Controls.Add(this.btniconDriver);
             this.panelDrawer.Controls.Add(this.paneliconBus);
+            this.panelDrawer.Controls.Add(this.btniconBus);
             this.panelDrawer.Controls.Add(this.paneliconStudent);
+            this.panelDrawer.Controls.Add(this.btniconStudent);
             this.panelDrawer.Controls.Add(this.panel1);
             this.panelDrawer.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelDrawer.Location = new System.Drawing.Point(30, 98);
@@ -115,12 +117,13 @@
             this.paneliconSetting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneliconSetting.Name = "paneliconSetting";
             this.paneliconSetting.Size = new System.Drawing.Size(56, 75);
-            this.paneliconSetting.TabIndex = 0;
+            this.paneliconSetting.TabIndex = 16;
             // 
             // btniconSetting
             // 
             this.btniconSetting.BackgroundImage = global::Bus_Mangement_system.Properties.Resources.icons8_services_80px;
             this.btniconSetting.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btniconSetting.Dock = System.Windows.Forms.DockStyle.Top;
             this.btniconSetting.FlatAppearance.BorderSize = 0;
             this.btniconSetting.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.btniconSetting.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
@@ -128,139 +131,139 @@
             this.btniconSetting.Location = new System.Drawing.Point(0, 0);
             this.btniconSetting.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniconSetting.Name = "btniconSetting";
-            this.btniconSetting.Size = new System.Drawing.Size(73, 75);
-            this.btniconSetting.TabIndex = 3;
+            this.btniconSetting.Size = new System.Drawing.Size(56, 75);
+            this.btniconSetting.TabIndex = 12;
             this.btniconSetting.UseVisualStyleBackColor = true;
             // 
             // paneliconReport
             // 
-            this.paneliconReport.Controls.Add(this.btniconReport);
             this.paneliconReport.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneliconReport.Location = new System.Drawing.Point(0, 950);
+            this.paneliconReport.Location = new System.Drawing.Point(0, 1025);
             this.paneliconReport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneliconReport.Name = "paneliconReport";
-            this.paneliconReport.Size = new System.Drawing.Size(56, 206);
-            this.paneliconReport.TabIndex = 5;
+            this.paneliconReport.Size = new System.Drawing.Size(56, 131);
+            this.paneliconReport.TabIndex = 15;
             // 
             // btniconReport
             // 
             this.btniconReport.BackgroundImage = global::Bus_Mangement_system.Properties.Resources.icons8_profit_report_80px;
             this.btniconReport.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btniconReport.Dock = System.Windows.Forms.DockStyle.Top;
             this.btniconReport.FlatAppearance.BorderSize = 0;
             this.btniconReport.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.btniconReport.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btniconReport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btniconReport.Location = new System.Drawing.Point(3, 0);
+            this.btniconReport.Location = new System.Drawing.Point(0, 950);
             this.btniconReport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniconReport.Name = "btniconReport";
-            this.btniconReport.Size = new System.Drawing.Size(73, 75);
-            this.btniconReport.TabIndex = 2;
+            this.btniconReport.Size = new System.Drawing.Size(56, 75);
+            this.btniconReport.TabIndex = 14;
             this.btniconReport.UseVisualStyleBackColor = true;
-            this.btniconReport.Click += new System.EventHandler(this.btniconReport_Click);
+            this.btniconReport.Click += new System.EventHandler(this.btniconReport_Click_1);
             // 
             // paneliconDailyTicket
             // 
-            this.paneliconDailyTicket.Controls.Add(this.btniconDailyTicket);
             this.paneliconDailyTicket.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneliconDailyTicket.Location = new System.Drawing.Point(0, 823);
+            this.paneliconDailyTicket.Location = new System.Drawing.Point(0, 898);
             this.paneliconDailyTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneliconDailyTicket.Name = "paneliconDailyTicket";
-            this.paneliconDailyTicket.Size = new System.Drawing.Size(56, 127);
-            this.paneliconDailyTicket.TabIndex = 4;
+            this.paneliconDailyTicket.Size = new System.Drawing.Size(56, 52);
+            this.paneliconDailyTicket.TabIndex = 13;
             // 
             // btniconDailyTicket
             // 
             this.btniconDailyTicket.BackgroundImage = global::Bus_Mangement_system.Properties.Resources.icons8_ticket_80px;
             this.btniconDailyTicket.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btniconDailyTicket.Dock = System.Windows.Forms.DockStyle.Top;
             this.btniconDailyTicket.FlatAppearance.BorderSize = 0;
             this.btniconDailyTicket.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.btniconDailyTicket.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btniconDailyTicket.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btniconDailyTicket.Location = new System.Drawing.Point(0, 0);
+            this.btniconDailyTicket.Location = new System.Drawing.Point(0, 823);
             this.btniconDailyTicket.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniconDailyTicket.Name = "btniconDailyTicket";
-            this.btniconDailyTicket.Size = new System.Drawing.Size(73, 75);
-            this.btniconDailyTicket.TabIndex = 2;
+            this.btniconDailyTicket.Size = new System.Drawing.Size(56, 75);
+            this.btniconDailyTicket.TabIndex = 12;
             this.btniconDailyTicket.UseVisualStyleBackColor = true;
-            this.btniconDailyTicket.Click += new System.EventHandler(this.btniconDailyTicket_Click);
+            this.btniconDailyTicket.Click += new System.EventHandler(this.btniconDailyTicket_Click_1);
             // 
             // paneliconDriver
             // 
-            this.paneliconDriver.Controls.Add(this.btniconDriver);
             this.paneliconDriver.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneliconDriver.Location = new System.Drawing.Point(0, 580);
+            this.paneliconDriver.Location = new System.Drawing.Point(0, 655);
             this.paneliconDriver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneliconDriver.Name = "paneliconDriver";
-            this.paneliconDriver.Size = new System.Drawing.Size(56, 243);
-            this.paneliconDriver.TabIndex = 3;
+            this.paneliconDriver.Size = new System.Drawing.Size(56, 168);
+            this.paneliconDriver.TabIndex = 11;
             // 
             // btniconDriver
             // 
             this.btniconDriver.BackgroundImage = global::Bus_Mangement_system.Properties.Resources.icons8_driver_80px;
             this.btniconDriver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btniconDriver.Dock = System.Windows.Forms.DockStyle.Top;
             this.btniconDriver.FlatAppearance.BorderSize = 0;
             this.btniconDriver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.btniconDriver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btniconDriver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btniconDriver.Location = new System.Drawing.Point(0, 0);
+            this.btniconDriver.Location = new System.Drawing.Point(0, 580);
             this.btniconDriver.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniconDriver.Name = "btniconDriver";
-            this.btniconDriver.Size = new System.Drawing.Size(73, 75);
-            this.btniconDriver.TabIndex = 2;
+            this.btniconDriver.Size = new System.Drawing.Size(56, 75);
+            this.btniconDriver.TabIndex = 10;
             this.btniconDriver.UseVisualStyleBackColor = true;
-            this.btniconDriver.Click += new System.EventHandler(this.btniconDriver_Click);
+            this.btniconDriver.Click += new System.EventHandler(this.btniconDriver_Click_1);
             // 
             // paneliconBus
             // 
-            this.paneliconBus.Controls.Add(this.btniconBus);
             this.paneliconBus.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneliconBus.Location = new System.Drawing.Point(0, 337);
+            this.paneliconBus.Location = new System.Drawing.Point(0, 412);
             this.paneliconBus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneliconBus.Name = "paneliconBus";
-            this.paneliconBus.Size = new System.Drawing.Size(56, 243);
-            this.paneliconBus.TabIndex = 2;
+            this.paneliconBus.Size = new System.Drawing.Size(56, 168);
+            this.paneliconBus.TabIndex = 9;
             // 
             // btniconBus
             // 
             this.btniconBus.BackgroundImage = global::Bus_Mangement_system.Properties.Resources.icons8_bus_80px;
             this.btniconBus.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btniconBus.Dock = System.Windows.Forms.DockStyle.Top;
             this.btniconBus.FlatAppearance.BorderSize = 0;
             this.btniconBus.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.btniconBus.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btniconBus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btniconBus.Location = new System.Drawing.Point(0, 0);
+            this.btniconBus.Location = new System.Drawing.Point(0, 337);
             this.btniconBus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniconBus.Name = "btniconBus";
-            this.btniconBus.Size = new System.Drawing.Size(73, 75);
-            this.btniconBus.TabIndex = 2;
+            this.btniconBus.Size = new System.Drawing.Size(56, 75);
+            this.btniconBus.TabIndex = 8;
             this.btniconBus.UseVisualStyleBackColor = true;
-            this.btniconBus.Click += new System.EventHandler(this.btniconBus_Click);
+            this.btniconBus.Click += new System.EventHandler(this.btniconBus_Click_1);
             // 
             // paneliconStudent
             // 
-            this.paneliconStudent.Controls.Add(this.btniconStudent);
             this.paneliconStudent.Dock = System.Windows.Forms.DockStyle.Top;
-            this.paneliconStudent.Location = new System.Drawing.Point(0, 94);
+            this.paneliconStudent.Location = new System.Drawing.Point(0, 169);
             this.paneliconStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.paneliconStudent.Name = "paneliconStudent";
-            this.paneliconStudent.Size = new System.Drawing.Size(56, 243);
-            this.paneliconStudent.TabIndex = 1;
+            this.paneliconStudent.Size = new System.Drawing.Size(56, 168);
+            this.paneliconStudent.TabIndex = 7;
             // 
             // btniconStudent
             // 
             this.btniconStudent.BackgroundImage = global::Bus_Mangement_system.Properties.Resources.icons8_student_male_80px;
             this.btniconStudent.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btniconStudent.Dock = System.Windows.Forms.DockStyle.Top;
             this.btniconStudent.FlatAppearance.BorderSize = 0;
             this.btniconStudent.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DimGray;
             this.btniconStudent.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.btniconStudent.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btniconStudent.Location = new System.Drawing.Point(0, 0);
+            this.btniconStudent.Location = new System.Drawing.Point(0, 94);
             this.btniconStudent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniconStudent.Name = "btniconStudent";
-            this.btniconStudent.Size = new System.Drawing.Size(73, 75);
-            this.btniconStudent.TabIndex = 1;
+            this.btniconStudent.Size = new System.Drawing.Size(56, 75);
+            this.btniconStudent.TabIndex = 2;
             this.btniconStudent.UseVisualStyleBackColor = true;
-            this.btniconStudent.Click += new System.EventHandler(this.btniconStudent_Click);
+            this.btniconStudent.Click += new System.EventHandler(this.btniconStudent_Click_1);
             // 
             // panel1
             // 
@@ -805,23 +808,33 @@
             this.Logo.Size = new System.Drawing.Size(184, 94);
             this.Logo.TabIndex = 1;
             // 
-            // panelBody
+            // panelChildForm
             // 
-            this.panelBody.BackColor = System.Drawing.Color.White;
-            this.panelBody.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelBody.Location = new System.Drawing.Point(304, 98);
-            this.panelBody.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panelBody.Name = "panelBody";
-            this.panelBody.Size = new System.Drawing.Size(1120, 754);
-            this.panelBody.TabIndex = 2;
+            this.panelChildForm.BackColor = System.Drawing.Color.White;
+            this.panelChildForm.Controls.Add(this.panel2);
+            this.panelChildForm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelChildForm.Location = new System.Drawing.Point(103, 98);
+            this.panelChildForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panelChildForm.Name = "panelChildForm";
+            this.panelChildForm.Size = new System.Drawing.Size(1321, 754);
+            this.panelChildForm.TabIndex = 3;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(20, 754);
+            this.panel2.TabIndex = 0;
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1454, 884);
-            this.Controls.Add(this.panelBody);
             this.Controls.Add(this.panelMenu);
+            this.Controls.Add(this.panelChildForm);
             this.Controls.Add(this.panelDrawer);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -834,11 +847,6 @@
             this.Shown += new System.EventHandler(this.Main_Shown);
             this.panelDrawer.ResumeLayout(false);
             this.paneliconSetting.ResumeLayout(false);
-            this.paneliconReport.ResumeLayout(false);
-            this.paneliconDailyTicket.ResumeLayout(false);
-            this.paneliconDriver.ResumeLayout(false);
-            this.paneliconBus.ResumeLayout(false);
-            this.paneliconStudent.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panelMenu.ResumeLayout(false);
             this.reportSubPanel.ResumeLayout(false);
@@ -846,6 +854,7 @@
             this.driverSubPanel.ResumeLayout(false);
             this.busSubPanel.ResumeLayout(false);
             this.studentSubPanel.ResumeLayout(false);
+            this.panelChildForm.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -854,21 +863,8 @@
 
         private System.Windows.Forms.Panel panelDrawer;
         private System.Windows.Forms.Panel panelMenu;
-        private System.Windows.Forms.Panel panelBody;
-        private System.Windows.Forms.Panel paneliconSetting;
-        private System.Windows.Forms.Panel paneliconReport;
-        private System.Windows.Forms.Panel paneliconDailyTicket;
-        private System.Windows.Forms.Panel paneliconDriver;
-        private System.Windows.Forms.Panel paneliconBus;
-        private System.Windows.Forms.Panel paneliconStudent;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel Logo;
-        private System.Windows.Forms.Button btniconStudent;
-        private System.Windows.Forms.Button btniconDailyTicket;
-        private System.Windows.Forms.Button btniconReport;
-        private System.Windows.Forms.Button btniconDriver;
-        private System.Windows.Forms.Button btniconBus;
-        private System.Windows.Forms.Button btniconSetting;
         private System.Windows.Forms.Button btnDrawer;
         private System.Windows.Forms.Panel studentSubPanel;
         private System.Windows.Forms.Button reportStudent;
@@ -897,5 +893,19 @@
         private System.Windows.Forms.Button dailyReport;
         private System.Windows.Forms.Button btnReport;
         private System.Windows.Forms.Button btnSetting;
+        private System.Windows.Forms.Panel paneliconReport;
+        private System.Windows.Forms.Button btniconReport;
+        private System.Windows.Forms.Panel paneliconDailyTicket;
+        private System.Windows.Forms.Button btniconDailyTicket;
+        private System.Windows.Forms.Panel paneliconDriver;
+        private System.Windows.Forms.Button btniconDriver;
+        private System.Windows.Forms.Panel paneliconBus;
+        private System.Windows.Forms.Button btniconBus;
+        private System.Windows.Forms.Panel paneliconStudent;
+        private System.Windows.Forms.Button btniconStudent;
+        private System.Windows.Forms.Panel paneliconSetting;
+        private System.Windows.Forms.Button btniconSetting;
+        private System.Windows.Forms.Panel panelChildForm;
+        private System.Windows.Forms.Panel panel2;
     }
 }

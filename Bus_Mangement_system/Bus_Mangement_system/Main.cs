@@ -13,9 +13,9 @@ namespace Bus_Mangement_system
     public partial class Main : MetroFramework.Forms.MetroForm
     {
         //اخر حاجه
-        int iconHeight = 75;
-        int reportPanelHeight = 206;
-        int dailyticketPanelHeight = 127;
+        //int iconHeight = 75;
+        //int reportPanelHeight = 206;
+        //int dailyticketPanelHeight = 127;
 
         public Main()
         {
@@ -44,58 +44,73 @@ namespace Bus_Mangement_system
                 panelMenu.Visible = false;
             }
             studentSubPanel.Visible = false;
-            paneliconStudent.Height = iconHeight;
+            paneliconStudent.Visible = false;
             busSubPanel.Visible = false;
-            paneliconBus.Height = iconHeight;
+            paneliconBus.Visible = false;
             driverSubPanel.Visible = false;
-            paneliconDriver.Height = iconHeight;
+            paneliconDriver.Visible = false;
             reportSubPanel.Visible = false;
-            paneliconReport.Height = iconHeight;
+            paneliconReport.Visible = false;
             dailyticketSubPanel.Visible = false;
-            paneliconDailyTicket.Height = iconHeight;
+            paneliconDailyTicket.Visible = false;
         }
         private void hideSubMenu()
         {
             if (studentSubPanel.Visible == true)
             {
                 studentSubPanel.Visible = false;
-                paneliconStudent.Height = iconHeight;
+                paneliconStudent.Visible = false;
             }
             if (busSubPanel.Visible == true)
             {
                 busSubPanel.Visible = false;
-                paneliconBus.Height = iconHeight;
+                paneliconBus.Visible = false;
             }
             if (driverSubPanel.Visible == true)
             {
                 driverSubPanel.Visible = false;
-                paneliconDriver.Height = iconHeight;
+                paneliconDriver.Visible = false;
             }
             if (reportSubPanel.Visible == true)
             {
                 reportSubPanel.Visible = false;
-                paneliconReport.Height = iconHeight;
+                paneliconReport.Visible = false;
             }
             if (dailyticketSubPanel.Visible == true)
             {
                 dailyticketSubPanel.Visible = false;
-                paneliconDailyTicket.Height = iconHeight;
+                paneliconDailyTicket.Visible = false;
             }
         }
-        private void showSubMenu(Panel subMenu, Panel iconPanel, int height = 243)
+        private void showSubMenu(Panel subMenu, Panel iconPanel/*, int height = 243*/)
         {
             if (subMenu.Visible == false)
             {
                 hideSubMenu();
                 subMenu.Visible = true;
-                iconPanel.Height = height;
+                iconPanel.Visible = true;
             }
             else
             {
                 subMenu.Visible = false;
-                iconPanel.Height = iconHeight;
+                iconPanel.Visible = false;
 
             }
+        }
+
+        private Form activeForm = null;
+        private void openChildForm(Form childForm)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            panelChildForm.Controls.Add(childForm);
+            panelChildForm.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
         }
 
         #endregion
@@ -115,12 +130,11 @@ namespace Bus_Mangement_system
             showSubMenu(studentSubPanel, paneliconStudent);
         }
 
-        private void btniconStudent_Click(object sender, EventArgs e)
+        private void btniconStudent_Click_1(object sender, EventArgs e)
         {
             panelMenu.Visible = true;
             showSubMenu(studentSubPanel, paneliconStudent);
             //new form
-
         }
         private void addStudent_Click(object sender, EventArgs e)
         {
@@ -153,7 +167,7 @@ namespace Bus_Mangement_system
             showSubMenu(busSubPanel, paneliconBus);
         }
 
-        private void btniconBus_Click(object sender, EventArgs e)
+        private void btniconBus_Click_1(object sender, EventArgs e)
         {
             panelMenu.Visible = true;
             showSubMenu(busSubPanel, paneliconBus);
@@ -190,12 +204,12 @@ namespace Bus_Mangement_system
             showSubMenu(driverSubPanel, paneliconDriver);
         }
 
-        private void btniconDriver_Click(object sender, EventArgs e)
+        private void btniconDriver_Click_1(object sender, EventArgs e)
         {
             panelMenu.Visible = true;
             showSubMenu(driverSubPanel, paneliconDriver);
         }
-
+        
         private void addDriver_Click(object sender, EventArgs e)
         {
             customizeDesign();
@@ -224,13 +238,13 @@ namespace Bus_Mangement_system
         #region DailyTickets
         private void btnDailyTickets_Click(object sender, EventArgs e)
         {
-            showSubMenu(dailyticketSubPanel, paneliconDailyTicket, dailyticketPanelHeight);
+            showSubMenu(dailyticketSubPanel, paneliconDailyTicket/*, dailyticketPanelHeight*/);
         }
 
-        private void btniconDailyTicket_Click(object sender, EventArgs e)
+        private void btniconDailyTicket_Click_1(object sender, EventArgs e)
         {
             panelMenu.Visible = true;
-            showSubMenu(dailyticketSubPanel, paneliconDailyTicket, dailyticketPanelHeight);
+            showSubMenu(dailyticketSubPanel, paneliconDailyTicket/*, dailyticketPanelHeight*/);
         }
 
         private void addDailyTicket_Click(object sender, EventArgs e)
@@ -243,15 +257,13 @@ namespace Bus_Mangement_system
         #region Report
         private void btnReport_Click(object sender, EventArgs e)
         {
-            showSubMenu(reportSubPanel, paneliconReport, reportPanelHeight);
+            showSubMenu(reportSubPanel, paneliconReport/*, reportPanelHeight*/);
         }
-
-        private void btniconReport_Click(object sender, EventArgs e)
+        private void btniconReport_Click_1(object sender, EventArgs e)
         {
             panelMenu.Visible = true;
-            showSubMenu(reportSubPanel, paneliconReport, reportPanelHeight);
+            showSubMenu(reportSubPanel, paneliconReport/*, reportPanelHeight*/);
         }
-
         private void monthlyReport_Click(object sender, EventArgs e)
         {
             customizeDesign();
@@ -270,6 +282,5 @@ namespace Bus_Mangement_system
             //new form
         }
         #endregion
-
     }
 }
